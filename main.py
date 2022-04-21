@@ -1,7 +1,5 @@
 # Password Generator
 
-# Your password should be at least 12 characters long.
-# Password should consist of lowercase and uppercase letters, numbers and symbols.
 
 import random
 import string
@@ -15,7 +13,7 @@ for char in chars:
         continue
     chars_list.append(char)
 
-
+# Creating custom amount and length of password
 print('Welcome to Password Generator!')
 while True:
     amount = input('How many passwords would you like to make? ')
